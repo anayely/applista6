@@ -1,0 +1,360 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>quinta aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp2.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/deteriro.jpg','imagenes/natural.jpg','imagenes/maravi.jpg','imagenes/ayudas.jpg','imagenes/maravilla.jpg','imagenes/planet.jpg')"> 
+ 
+<div data-role="page" id="principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar" data-back-btn-theme="a">
+   <h1>DIA MUNDIAL DEL PLANETA TIERRA</h1>
+  </div>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:1010px;height:411px;max-width:500%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<div>
+     <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+     <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>¿QUE ES EL DIA DEL PLANETA?</h2>
+        </a>
+       </li>
+      
+       <li class="ui-first-child ui-last-child">
+        <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>IMPORTANCIA DEL MEDIO AMBIENTE</h2>
+        </a>
+      </li>
+      
+     <li class="ui-first-child ui-last-child">
+       <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>ACCIONES CONTRA LA CONTAMINACION</h2>
+       </a>
+     </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>CUIDADOS HACIA EL PLANETA TIERRA</h2>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>CAMBIO CLIMATICO Y SUS EFECTOS</h2>
+       </a>
+       </li>
+       
+       <li class="ui-first-child ui-last-child">
+       <a href="#pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>¿QUE SIGNIFICAN LAS TRES "R"?</h2>
+       
+  
+       </a>
+       </li>
+   </ul>
+</div>
+<div data-role="footer" align="center" data-theme="b">
+    <div>
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+    </div>
+    <div>
+      <h4>APLICACION CINCO</h4>
+      <h4>ANA YELI ROJAS GONZALEZ</h4>
+    </div>
+</div>
+</div>
+
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>¿QUE ES EL DIA DEL PLANETA?</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+    <center><img src="imagenes/planeta.jpg" width="50%" height="50%"></center>
+       <p><CENTER>22 de Abril - Día Mundial de la Tierra</CENTER></p>
+<P>El 22 de abril de cada año se celebra el nacimiento del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable</P>
+<p> El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extincin.</p>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/natural.jpg',1)"><img src="imagenes/maravilla.jpg" width="275" height="183" id="Image12"></a>
+<p> A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor Hasta este siglo pocos pensaron que los seres humanos, viviendo en una extensión de tierra aparentemente sin límites y con agua abundante, podrían causar daños irreparables al medio ambiente. Sin embargo hoy los gobiernos y la gente en general en todo el mundo luchan con la erosión costera, los derrames de petróleo y la contaminación del agua potable, en tanto que cuestiones como el crecimiento de la población, la deforestación, la lluvia ácida y la posibilidad de rápidos cambios climáticos significan decisiones difíciles para el futuro.</p> 
+
+<iframe width="50%" height="30%" src="https://www.youtube.com/embed/HsRtkLEEfaI" frameborder="0" allowfullscreen></iframe>
+
+<p>En 1975 un grupo internacional de estudio reunido en Belgrado, Yugoslavia, propuso un marco de referencia mundial para la educación ambiental, el cual se llamó la "Carta de Belgrado". Esta Carta afirma que la meta de la educación ambiental es hacer que la población mundial se preocupe por el medio ambiente y tenga el conocimiento y la dedicación que la capacite para buscar soluciones a los problemas actuales y prevenir problemas nuevos.</p>
+
+       <center><img src="imagenes/plane.jpg"  width="50%" height="50%"></center>
+     </div>
+   </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<div data-role="footer" align="center" data-theme="b">
+
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+     <h4>APLICACION CINCO</h4>
+     <h4>ANA YELI ROJAS GONZALEZ</h4>
+   </div>
+ </div>
+</div>
+ <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>IMPORTANCIA DEL MEDIO AMBIENTE</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+     <center><img src="imagenes/plane.jpg"  width="50%" height="50%"></center>
+       <p><center>IMPORTANCIA D CUIDAR ELMEDIO AMBIENTE </center></p>
+       <p>Cuidar del medio ambiente es cuestión de que cada miembro de la sociedad asuma el compromiso de respetar y cuidar su entorno. El pasado 5 de junio se celebro el Día Mundial del Medio Ambiente, fecha propicia para promover en nuestro entorno la importancia de tomar conciencia de la protección de los recursos naturales.Como familia y entes sociales tenemos el gran compromiso de proteger el Medio Ambiente, ya que de esto depende nuestra calidad de vida y la de nuestros sucesores, así como el desarrollo de nuestro país.El medio Ambiente es el conjunto de todas las cosas vivas que nos rodean, de él obtenemos la materia prima que utilizamos para vivir. </p>
+       <p>Es por esto que cuando atropellamos o hacemos mal uso de los recursos naturales, que tenemos a disposición, lo ponemos en peligro. El aire y el agua ambos indispensables para vivir se están contaminando, por tanto debemos hacer conciencia del uso que les damos. Defender el medio ambiente es parte de nuestro deber, ya que nos convierte en agente dinámico y así fomentamos la cooperación que nos garantizará un mejor futuro y un país más sano.Como familia podemos asumir actitudes tanto individuales como colectivas en defensa del ambiente, buscando soluciones que impidan su contaminación y degradación.</p>
+       <p>El deterioro en que se encuentra el medio ambiente, exige que asumamos responsabilidades sobre la contaminación ambiental y los peligros que representan para el desarrollo de nuestra sociedad, con la finalidad de contribuir a contrarrestarlos. Compromisos que podemos asumir · Fomentar en nuestros hijos/as la aventura de sembrar un árbol en el entorno. · Participar en actividades relacionadas con la conversación y preservación del ecosistema de país, previendo la deforestación y la contaminación ambiental. · Asumir responsabilidades de protección del medio ambiente, tanto individuales como de forma colectivas. · Analizar críticamente el entorno social y natural, vinculándonos a la problemática del ambiente. · Hacer conciencia sobre la frase “no hagas a otros lo que no te gusta que te hagan a ti”, esto con el objetivo de ver que nuestro entorno está rodeado de seres vivos que sufren nuestra falta de cuidado. </p>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Imagen1','','imagenes/deteriro.jpg',1)"><img src="imagenes/planeta.jpg" width="209" height="196" id="Imagen1"></a>
+<p>Debemos recordar que cuando hablamos de medio ambiente nos referimos tanto a los aspectos de la naturaleza como plantas, animales, suelo, aire, agua, así como a aspectos propios del ser humano y su cultura: ciudades, industrias, arte, ciencia, etc. Preocuparse del medio hoy, significa preocuparse por lograr mejores condiciones de vida para el ser humano respetando los procesos y componentes naturales del medio.</p>
+     </div>
+   </div>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+<div data-role="footer" align="center" data-theme="b">
+
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+     <h4>APLICACION CINCO</h4>
+     <h4>ANA YELI ROJAS GONZALEZ</h4>
+   </div>
+ </div>
+</div>
+
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true"  data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>ACCIONES CONTRA LA CONTAMINACION  </h1>
+  </div>
+  <div data-role="content" align="center">
+    <div>
+      <P><CENTER>ACCIONES DE LUCHA CONTRA LA CONTAMINACIÒN AMBIENTAL</CENTER></p>
+       <center><img src="imagenes/deteriro.jpg"  width="50%" height="50%"></center>
+      
+<p>Dado el estado actual de la contaminaciòn ambiental en nuestro planeta se hace necesario acciones de lucha para combatirla. Esta lucha se puede clasificar en:</p> 
+<p><CENTER>ACCIONES DE LUCHA INDIVIDUAL:</CENTER></p>
+<p>Es el conjunto de actividades o acciones que una persona realiza para combatir la contaminación ambiental, entre estas acciones tenemos: 1.- Selecciona la basura de la casa, recicla en basura orgànica e inorgànica 2.- Cambia los focos tradicionales de su hogar por focos ahorradores 3.- Ahorre energia elèctrica,no la desperdicie. Use el cargador del celular solo cuando cargue su movil, apague los focos, los artefactos elèctricos cuando no los utilice. 4.- No use productos contaminantes (plàsticos, productos quìmicos contaminantes como el detergente,etc) 5.- busque productos alternativos para los productos contaminantes que utilice. Ejemplo en vez de utilizar plàsticos para llevar sus compras, usar bolsas de tela. 6.- Ahorre el agua, consumiendo lo necesario, solucionando las fugas, báñandote en el tiempo necesario, cerrando las llaves del agua mientras te enjabonas o afeitas. Ábre el caño sólo para enjuagarte, Coloca una cubeta para recoger el agua fría mientras sale la caliente. Puedes usarla después en la limpieza de la casa, del coche o para regar las plantas. Enjuágate los dientes, después de cepillarte, con un vaso de agua. Riega las plantas durante la noche o muy temprano, cuando el sol tarda más en evaporar el agua.  Muchos animales silvestres mueren por haber ingerido bolsas, botellas, colillas u otros objetos tirados por los visitantes. Si prendes una fogata, asegúrate de apagarla perfectamente antes de irte</p>. 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/maravi.jpg',1)"><img src="imagenes/ayudas.jpg" width="276" height="183" id="Image13"></a>
+<p><CENTER>ACCIONES DE LUCHA COLECTIVA:</CENTER></p>
+<p>Es el conjunto de actividades o acciones que grupo de personas realiza para combatir la contaminación ambiental, entre estas acciones tenemos 1.- Elaborar un memorial a una autoridad para la limpieza de un ligar contaminado. 2.- Realizar una campaña de limpieza y recojo de basura de un lugar contaminado. 3.- Elaborar y repartir volantes de concientización para descontaminar un lugar contaminado. 4.- Elaborar y pegar afiches o carteles concientizando a las personas a no contaminar un lugar contaminado. 5.- Transmitir un programa radial por la descontaminación de un lugar contaminado. 6.- Organizar un mitin o marcha pacífica a la municipalidad de sus localidad buscando acciones concretas para descontaminar un lugar determinado. 7.- Formar círculos, centros de investigación o defensa del medio ambiente. </p>
+<P>
+<CENTER>ACCIONES DE LUCHA GUBERNAMENTAL:</CENTER></P>
+<P>
+Es el conjunto de actividades o acciones de parte del gobierno y sus instituciones para combatir la contaminación ambiental, entre estas acciones tenemos 1.- Elaborar leyes, decretos, directivas y demas instrumentos legales para combatir la contaminaciòn ambiental. Ejemplo: ley de proteccion de los bosques, ley de racionalizaciòn del uso del agua,etc 2.- Realizar campañas de concientizaciòn a traves de los medios de comunicaciòn para evitar la contaminaciòn ambiental. 3.- Elaborar proyectos o programas para descontaminar lugares contaminados especìficos. 4.- Establecer sanciones para las empresas y personas que contaminen el medio ambiente. 
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:1010px;height:411px;max-width:500%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<CENTER>ACCIONES DE LUCHA INTER GUBERNAMENTAL:</CENTER> 
+Es el conjunto de actividades o acciones de parte de todo los países del mundo o los que quieran hacerlo para combatir la contaminación ambiental, entre estas acciones tenemos 1.- Acordar la emisión de dispositivos legales en sus respectivos países para combatir la contaminación ambiental 2.- Buscar energías alternativas. 3.- Reducir la emisión de gases a la atmósfera 4.- Proteger los bosques del mundo entero. 5.- Destinar una cantidad de su presupuesto a la lucha contra la contaminación ambiental.  emisiones de los seis gases que más potenciaban el efecto invernadero en un 5,2% con respecto a 1990. Buenos Aires, Argentina, 1998, En Buenos Aires los delegados de 170 países aprobaron un programa que aplazaba hasta el año 2000 la puesta en marcha del acuerdo. Al año siguiente, en la reunión de Bonn de 1999, se pusieron de manifiesto las grandes diferencias que separaban a países ricos y pobres. En la Haya en el año 2000 se recuperan los contactos, pero fracasan de nuevo y se remiten a julio del año 2001, fecha en que 180 países firman por fin el acuerdo de puesta en marcha del Protocolo de Kioto, aunque con el desmarque de Estados Unidos. Marrakech, Marruecos, 2001,con la iniciativa de la Unión Europea se reúne la séptima conferencia sobre el cambio climático desde la cumbre de Río de Janeiro de 1992, a pesar de que el atentado sobre las torres gemelas de Nueva York estuvo a punto de suspender el encuentro. Finalmente se redactó el texto legal definitivo para su entrada en vigor en el año 2002. Johannesburgo, Sudáfrica, 2002, entre el 26 de agosto y el 7 de septiembre de 2002, se reúnen los líderes mundiales. Las cosas no han cambiado.</p>
+      </div>
+   </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<div data-role="footer" align="center" data-theme="b">
+
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+     <h4>APLICACION CINCO</h4>
+     <h4>ANA YELI ROJAS GONZALEZ</h4>
+   </div>
+ </div>
+</div>
+
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CUIDADOS HACIA EL PLANETA</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+    <center><img src="imagenes/cuidados.jpg" width="50%" height="50%"></center>
+    <p> Cuidemos el Planeta Es muy importante que todos tomemos conciencia de la importancia que tiene cuidar nuestro planeta y nuestros recursos. En esta página, te mostraremos muchos consejos útiles que te servirán para este fin. Utiliza Menos Agua Ahorra agua siempre que puedas. Siempre que puedas, recolecta y reutiliza el agua. Mantén cerrado el grifo mientras no necesites el agua que sale para no desperdiciar el agua. Riega por la mañana o bien tarde para que el agua no se evapore enseguida. Ahorra Energía Eléctrica Apaga las luces. Utiliza bombillas de bajo consumo. </p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/deteriro.jpg',1)"><img src="imagenes/ayuda.jpg" width="272" height="185" id="Image14"></a>
+<P>Evita utilizar electrodomésticos y energía innecesariamente. Usa menos el aire acodiciando, los calentadores eléctricos y la calefacción Desconecta los aparatos eléctricos y los electrodomésticos. Aprovechar la luz natural. Contamina Menos Utiliza menos el coche. Siempre que puedas, utiliza el transporte público. Ahorra combustible. Gasta menos gas. Recicla todo lo que puedas Cuida y reutiliza las hojas de papel. Recicla tu basura y todo lo que puedas. Separa la basura. Compra productos reciclados. Evita usar recipientes de aluminio y de plástico. Genera menos desperdicios Utiliza pilas recargables. Evita usar productos desechables. Si tienes que comprar botellas desechables, compra botellas más grandes Evitar utilizar bolsas de plástico cuando puedas utilizar otras. Otros consejos Evita comprar y usar aerosoles Planta un árbol. No tires papeles ni residuos en la calle. No tires el aceite que no sirva por las cañerías.
+ 
+</p>
+    </div>
+   </div>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+<div data-role="footer" align="center" data-theme="b">
+
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+     <h4>APLICACION CINCO</h4>
+     <h4>ANA YELI ROJAS GONZALEZ</h4>
+   </div>
+ </div>
+</div>
+
+<div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CAMBIO CLIMATICO Y SUS EFECTOS</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+    <P>
+       <center><img src="imagenes/ayuda.jpg" width="50%" height="50%"></center>
+       </P>
+<P>
+    CAMBIO CLIMATICO Y EFECTOS
+
+El clima de la Tierra ha cambiado en muchas ocasiones, sin embargo, nunca antes se había dado un cambio tan drástico y peligroso. Un cambio que afecta a nuestro medioambiente, economía, sociedad, y que es una amenaza para el planeta. 
+
+Durante el pasado siglo, la temperatura media de la superficie de la Tierra subió aproximadamente 0,6º Celsius. Las pruebas demuestran que la mayoría de los acontecimientos del calentamiento global que han tenido lugar en el planeta en los últimos 50 años han sido causados por la actividad humana.</P>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/ayudas.jpg',1)"><img src="imagenes/plane.jpg" width="256" height="197" id="Image15"></a> <P>En su Tercer Informe, publicado en 2001, la Agencia Intergubernamental sobre el Cambio Climático (IPCC, por sus siglas en ingles), pronosticó que la media de temperaturas globales de la superficie subiría entre 1,4 hasta 5,8 ºC para finales de este siglo. El incremento de la temperatura global tendrá consecuencias muy serias para la humanidad y para toda criatura viva, incluyendo una subida del nivel de los mares que será una amenaza para las costas e islas pequeñas, así como el incremento y empeoramiento de los fenómenos meteorológicos. Pero los pronósticos ya se están cumpliendo. El clima está cambiando, empeora.</P>
+<P>
+Los huracanes son más intensos, las lluvias torrenciales, las sequías, las olas de calor, las nevadas... El cambio climático no es una película de ciencia ficción, ya es una realidad. Hace una década, tan sólo era una conjetura, una posibilidad. Ahora el futuro puede ser devastador. Canadá cambia, el hielo del Ártico se derrite, Asia y Sudamérica sufren tormentas e inundaciones históricas. Los glaciares desaparecen, se multiplican los incendios forestales y se suceden olas de calor insoportables... Los científicos lo han comprobado y alertan sobre ello.</P>
+<P>
+Los Climatólogos que mantienen informada a la IPCC advierten que el calentamiento global es causado por la actividad humana y que existe una gran preocupación de que este calentamiento se acelere aún más.</P>
+<P>
+Si se continúa al ritmo actual, aumentaremos las concentraciones de CO2 que hay en la atmósfera, doblando el nivel actual. Probablemente, esto aumentará la temperatura global entre 2 y 5 grados Celsius. Todo ello repercutirá en el deshielo, en los océanos, en el vapor del agua, las nubes, los cambios de vegetación... El impacto en el ecosistema podría ser irreversible.</P>
+     </div>
+   </div>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+<div data-role="footer" align="center" data-theme="b">
+
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+     <h4>APLICACION CINCO</h4>
+     <h4>ANA YELI ROJAS GONZALEZ</h4>
+   </div>
+ </div>
+ </div>
+ 
+<div data-role="page" id="pagina6" data-add-back-btn="true" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>QUE SIGNIFICAN LA TRES "R"</h1>
+    </div>
+   <div data-role="content" align="center">
+    <div>
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h2>RECICLA</h2>
+     <center><img src="imagenes/recicla.jpg"  width="50%" height="50%"></center>
+     <p> 
+En vez de tirar un artículo cuando ya no lo puedes usar, ¡recíclalo!. A pesar de que el reciclaje no es perfecto — ya que requiere de energía y los procesos para cambiar algo en otra cosa a menudo producen subproductos no deseados y a veces tóxicos— es mejor que enviar lo que desechaste a los tiraderos de basura o lo que es peor ¡incinerarlos! Es posible reciclar: papel, cartón, vidrio, metales, aluminio, madera, plásticos de los números 1, 2 y 4 (en la parte inferior o posterior del producto viene un número dentro de un triángulo hecho con flechas). Los demás plásticos no se reciclan y mucho menos el número 3 que es PVC o vinil que es altamente tóxico.</p>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image37','','imagenes/ayudas.jpg',1)"><img src="imagenes/recicla.jpg" width="294" height="171" id="Image37"></a>
+<p> Averigua qué materiales pueden ser reciclados en tu localidad. Limpia y clasifica los materiales antes de ponerlos en diferentes cestos. La basura orgánica (cáscaras de frutas, restos de comida, etc.) se puede utilizar para hacer composta o abono. Los recolectores de basura separan la basura y la revenden para reciclaje. Nosotros podemos simplificar esta labor haciendo una buena separación de residuos. </p>
+      
+    </div>
+   </div>
+
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <h2>REDUCE</h2>
+      <center><img src="imagenes/reduce.jpg" width="50%" height="50%"></center>
+      <P> 
+Lo mejor que podemos hacer por el planeta es explotarlo lo menos posible, con un enfoque justo, ético y utilizar sus recursos de manera sustentable. En el centro de la crisis ambiental se encuentra nuestra sociedad consumista. Aquí hay algunas preguntas que puedes hacerte antes de comprar: ¿Es realmente necesario lo que estoy a punto de comprar?, ¿Este producto fue elaborado de manera que no contamine o de manera sustentable?, ¿Durará mucho tiempo?, ¿Contaminará al ser desechado?, ¿Dónde fue fabricado y bajo qué circunstancias?, ¿Fueron usados los materiales para hacerlos reusables o reciclables? ¿Existe un producto similar pero con menos empaques? La idea es que cada uno de nosotros hagamos un consumo razonado, no comprar por comprar sin mirar a quién o a qué podamos dañar.
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image38','','imagenes/deteriro.jpg',1)"><img src="imagenes/reduce.jpg" width="253" height="200" id="Image38"></a> </P>
+      
+    </div>
+   </div>
+
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+      <center><img src="imagenes/reutiliza.jpg" width="50%" height="50%"></center>
+      <h2> REUTILIZA </h2>
+      <p>
+Debido a que vivimos en una “sociedad desechable”, constantemente somos instados a comprar artículos “nuevos” o “mejorados” aún cuando el que tenemos puede ser reusado o reparado. Cuando compramos, debemos buscar artículos durables y repararlos cuando sea necesario. Así, los bienes de uso durarán mucho tiempo y podrán pasar de generación en generación. </p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image39','','imagenes/maravilla.jpg',1)"><img src="imagenes/maravi.jpg" width="287" height="176" id="Image39"></a>
+<p>Si algo no es usable para su propósito original, trata de ser creativo y piensa de qué otra forma emplearlo. Si ya no lo necesitas, piensa si alguien más puede utilizarlo
+</p>
+<br>
+    </div>
+   </div>
+
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <center><img src="imagenes/planeta.jpg" width="50%" height="50%"></center>
+     <h2> EN QUE BENEFICIA REALIZAR LAS TRES "R"</h2>
+<p><CENTER>Para que sirven las tres R</CENTER>
+
+ Ayuda a solucionar los problemas ocasionados por las  toneladas de desechos sólidos producidos a diario por  los seres humanos.
+ Se produce menos daño al medio ambiente. Se arroja  menos basura en sitios públicos lo que permite mejorar  la calidad de nuestro lugar de trabajo.
+ Los rellenos sanitarios tendrán mayor tiempo de uso  especialmente en las grandes ciudades.
+ Se ahorra tiempo y dinero en los insumos y servicios..</p>
+    </div>
+   </div>
+   
+ <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <center><img src="imagenes/planeta.jpg" width="50%" height="50%"></center>
+     <h2> REFLEXION</h2>
+<p><CENTER>REFLEXION SOBRE EL PLANETA TIERRA </CENTER></p>
+<P>Para la ciudadania es importante tener en cuenta que la contaminacion es un tema importante ya que actualmente hay un exceso conla contaminacion en el pais y no solo  hay eso tambien hay afectaciones en el aire ya que hay muchos gases desprendidos de los automoviles,fabricas,quema de basura,la tira de agua,etc.</P>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/planet.jpg',1)"><img src="imagenes/deteriro.jpg" width="268" height="188" id="Image40"></a>
+<p>Por eso es importante no utilizar mucho el transporte,ahorrar agua,separar la basura,no utilizar sprait de cualquier tipo y algo que podemos realizar es obligar a los funconarios publicos que cumplan con los servicion como que pasen por la basura y quetengan buenos tubos donde pase el agua</p> 
+
+    </div>
+   </div>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+ <img src="imagenes/mdpi.png"  width="46" height="46">
+ <h4>APLICACION CINCO</h4>
+ <h4>ANA YELI ROJAS CONZALEZ</h4>
+   </div>
+ </div>
+ <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+    
+     <h2> MI COMUNIDAD</h2>   
+
+  <!-- Start WOWSlider.com -->
+<iframe src="visor2/indexwow.html" style="width:960px;height:360px;max-width:500%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<div>
+<p><CENTER>MI COMUNIDAD Y EL IMPACTO AMBIENTAL </CENTER></p>
+<P>En mi comunidad no se tira la basura ya que cada jueves de cada semana pasa el carro de la basura si el carro no pasa se les reaiza una llamada de atencon</p> 
+<center><img src="imagenes/colonia.jpg" width="50%" height="50%"></center>
+<p><CENTER>MI COMUNIDAD Y SU DESAROLLO </CENTER></p>
+<P>En mi colonia no se desperdicia el agua ya que si llegara a suceder algo parecido se les realiza una multa dependiendo que cantidades de agua se desperdiciaron y si es que afectaron a terceras personas </p> 
+<center><img src="imagenes/calle.jpg" width="50%" height="50%"></center>
+<p><CENTER>MI COMUNIDAD Y LA NATURALEZA </CENTER></p>
+<P>En mi colonia no se tienen los servicios adecuados y hay necesidades muy impotantes como el mantenimiento del agua ya que continuamente hay fugas de agua. </p> 
+<center><img src="imagenes/vive.jpg" width="50%" height="50%"></center>
+
+<p><CENTER>EL CUIDADO DEL PLANETA </CENTER></p>
+<P>Para agradecerle al planeta por los beneficios que nos brinda una vez al año en mi colonia se hace un limpiado extra es decir,todos tienen que limpar sus calles  </p>
+
+<center><img src="imagenes/casa.jpg" width="50%" height="50%"></center> 
+
+</div>
+   </div>
+ <div data-role="footer" data-theme="b" data-position="fixed">
+
+<div data-role="footer" align="center" data-theme="b">
+ 
+ 
+       <img src="imagenes/mdpi.png"  width="46" height="46">
+     <h4>APLICACION CINCO</h4>
+     <h4>ANA YELI ROJAS GONZALEZ</h4>
+ 
+   </div>
+ </div>
+ </div>
+</body>
+</html>
